@@ -14,9 +14,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path={`${import.meta.env.VITE_APP_API_URL}about`} element={<About />} />
+          <Route path={`${import.meta.env.VITE_APP_API_URL}courses`} element={<Courses />} />
+          <Route path={`${import.meta.env.VITE_APP_API_URL}contact`} element={<Contact />} />
         </Routes>
         <Footer />
       </div>
