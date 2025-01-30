@@ -1,0 +1,48 @@
+/* Border effect for the right separator */
+.stat-counter {
+  text-align: center;
+  padding: 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-card:last-child {
+  border-right: none; /* Remove border for the last item */
+}
+
+/* Number text styling */
+.counter-value {
+  font-size: 1.875rem; /* Equivalent to Tailwind's text-3xl */
+  font-weight: bold;
+  color: #facc15; /* Yellow-400 */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover effect for number */
+.stat-counter:hover .counter-value {
+  transform: scale(1.1);
+  color: #fde047; /* Lighter yellow for better effect */
+}
+
+/* Label text styling */
+.stat-counter h3 {
+  font-size: 0.875rem; /* Equivalent to Tailwind's text-sm */
+  color: #93c5fd; /* Blue-200 */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for label */
+.stat-counter:hover h3 {
+  color: #bfdbfe; /* Lighter blue */
+}
+
+/* Responsive border handling */
+@media (max-width: 768px) {
+  .stat-counter {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .stat-counter:last-child {
+    border-bottom: none;
+  }
+}
