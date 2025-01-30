@@ -114,7 +114,7 @@ function Home() {
     const certificates = [
       {
         name:'Microsoft',
-        image:"microsoft.png"
+        image:"./microsoft.png"
       },
       {
         name:'Python',
@@ -122,19 +122,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"java.png"
+        image:"./java.png"
       },
       {
         name:'SAP',
-        image:"sap.png"
+        image:"./sap.png"
       },
       {
         name:'AutoCAD',
-        image:"autocad.png"
+        image:"./autocad.png"
       },
       {
         name:'Cloud',
-        image:"cloud.png"
+        image:"./cloud.png"
       },
       {
         name:'ERP',
@@ -146,7 +146,7 @@ function Home() {
       },
       {
         name:'Microsoft',
-        image:"microsoft.png"
+        image:"./microsoft.png"
       },
       {
         name:'Python',
@@ -154,19 +154,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"java.png"
+        image:"./java.png"
       },
       {
         name:'SAP',
-        image:"sap.png"
+        image:"./sap.png"
       },
       {
         name:'AutoCAD',
-        image:"autocad.png"
+        image:"./autocad.png"
       },
       {
         name:'Cloud',
-        image:"cloud.png"
+        image:"./cloud.png"
       },
       {
         name:'ERP',
@@ -187,7 +187,7 @@ function Home() {
       },
       {
         name: 'ISO 9001:2015',
-        image: 'iso.png'
+        image: './iso.png'
       },
       {
         name: 'APSCHE Approved',
@@ -204,7 +204,7 @@ function Home() {
       },
       {
         name: 'ISO 9001:2015',
-        image: 'iso.png'
+        image: './iso.png'
       },
       {
         name: 'APSCHE Approved',
