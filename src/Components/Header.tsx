@@ -8,6 +8,7 @@ import {
 
 function Header()
 {
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     
 
@@ -20,9 +21,15 @@ function Header()
 
       const navLinks = [
         { name: 'Home', href: '/', navigateToSection: true },
+<<<<<<< HEAD
         { name: 'About', href: 'https://wright-tech.vercel.app/about', navigateToSection: false },
         { name: 'Courses', href: 'https://wright-tech.vercel.app/courses', navigateToSection: false },
         { name: 'Contact', href: 'https://wright-tech.vercel.app/contact', navigateToSection: false }
+=======
+        { name: 'About', href: `${import.meta.env.VITE_APP_API_URL}about`, navigateToSection: false },
+        { name: 'Courses', href: `${import.meta.env.VITE_APP_API_URL}courses`, navigateToSection: false },
+        { name: 'Contact', href: `${import.meta.env.VITE_APP_API_URL}contact`, navigateToSection: false }
+>>>>>>> 52c7ec8 (fivth commit)
       ];
     return(
          <header className="fixed w-full z-50 bg-blue-900/95 backdrop-blur-sm shadow-lg">
@@ -35,7 +42,7 @@ function Header()
                     >
 
                       {/* <Trophy className="w-8 h-8 text-yellow-400" /> */}
-                      <img className="absolute w-15 h-17" src="./logo.png" alt="logo" />
+                      <img className="absolute w-15 h-17" src="../images/logo.png" alt="logo" />
                       <div className="absolute ml-[70px] p-0 text-center text-2xl font-bold text-white">Wright Tech <p className="-mt-[13px] text-[15px] text-yellow-400">Software Solutions</p></div>
                     </div>
         

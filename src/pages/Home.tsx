@@ -114,7 +114,7 @@ function Home() {
     const certificates = [
       {
         name:'Microsoft',
-        image:"./microsoft.png"
+        image:"../images/microsoft.png"
       },
       {
         name:'Python',
@@ -122,19 +122,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"./java.png"
+        image:"../images/java.png"
       },
       {
         name:'SAP',
-        image:"./sap.png"
+        image:"../images/sap.png"
       },
       {
         name:'AutoCAD',
-        image:"./autocad.png"
+        image:"../images/autocad.png"
       },
       {
         name:'Cloud',
-        image:"./cloud.png"
+        image:"../images/cloud.png"
       },
       {
         name:'ERP',
@@ -146,7 +146,7 @@ function Home() {
       },
       {
         name:'Microsoft',
-        image:"./microsoft.png"
+        image:"../images/microsoft.png"
       },
       {
         name:'Python',
@@ -154,19 +154,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"./java.png"
+        image:"../images/java.png"
       },
       {
         name:'SAP',
-        image:"./sap.png"
+        image:"../images/sap.png"
       },
       {
         name:'AutoCAD',
-        image:"./autocad.png"
+        image:"../images/autocad.png"
       },
       {
         name:'Cloud',
-        image:"./cloud.png"
+        image:"../images/cloud.png"
       },
       {
         name:'ERP',
@@ -187,7 +187,7 @@ function Home() {
       },
       {
         name: 'ISO 9001:2015',
-        image: './iso.png'
+        image: '../images/iso.png'
       },
       {
         name: 'APSCHE Approved',
@@ -204,7 +204,7 @@ function Home() {
       },
       {
         name: 'ISO 9001:2015',
-        image: './iso.png'
+        image: '../images/iso.png'
       },
       {
         name: 'APSCHE Approved',
@@ -320,7 +320,7 @@ function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-75 transition-opacity duration-300 rounded-xl"></div>
         <img 
-          src="director.jpg" 
+          src="../images/director.jpg" 
           alt="Professional at work"
           className="w-full h-[350px] mt-[30px] rounded-xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300"
         />

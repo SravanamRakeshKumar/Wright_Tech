@@ -6,7 +6,7 @@ function About() {
         name: 'Syed Basha',
         role: 'Director',
         qualification: 'M.B.A., M.Com.',
-        image: './director.jpg'
+        image: '../images/director.jpg'
       },
       {
         id: 2,
