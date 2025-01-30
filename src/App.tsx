@@ -8,19 +8,22 @@ import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 
 function App() {
+  const basePath = import.meta.env.VITE_APP_BASE_PATH || '';
   return (
+   
     <Router>
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path={`${import.meta.env.VITE_APP_API_URL}about`} element={<About />} />
-          <Route path={`${import.meta.env.VITE_APP_API_URL}courses`} element={<Courses />} />
-          <Route path={`${import.meta.env.VITE_APP_API_URL}contact`} element={<Contact />} />
+          <Route path={`${basePath}/`} element={<Home />} />
+          <Route path={`${basePath}/about`} element={<About />} />
+          <Route path={`${basePath}/courses`} element={<Courses />} />
+          <Route path={`${basePath}/contact`} element={<Contact />} />
         </Routes>
         <Footer />
       </div>
     </Router>
+    
   );
 }
 

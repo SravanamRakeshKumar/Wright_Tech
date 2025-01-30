@@ -24,7 +24,6 @@ function Header()
         { name: 'About', href: `${import.meta.env.VITE_APP_API_URL}about`, navigateToSection: false },
         { name: 'Courses', href: `${import.meta.env.VITE_APP_API_URL}courses`, navigateToSection: false },
         { name: 'Contact', href: `${import.meta.env.VITE_APP_API_URL}contact`, navigateToSection: false }
-
       ];
     return(
          <header className="fixed w-full z-50 bg-blue-900/95 backdrop-blur-sm shadow-lg">
