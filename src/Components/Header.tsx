@@ -20,9 +20,9 @@ function Header()
 
       const navLinks = [
         { name: 'Home', href: '/', navigateToSection: true },
-        { name: 'About', href: '/about', navigateToSection: false },
-        { name: 'Courses', href: '/courses', navigateToSection: false },
-        { name: 'Contact', href: '/contact', navigateToSection: false }
+        { name: 'About', href: 'https://wright-tech.vercel.app/about', navigateToSection: false },
+        { name: 'Courses', href: 'https://wright-tech.vercel.app/courses', navigateToSection: false },
+        { name: 'Contact', href: 'https://wright-tech.vercel.app/contact', navigateToSection: false }
       ];
     return(
          <header className="fixed w-full z-50 bg-blue-900/95 backdrop-blur-sm shadow-lg">
