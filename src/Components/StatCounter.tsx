@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
-import '../styles/StatCounter.css';
+import './StatCounter.css';
 
 function StatCounter({ end, duration, suffix, title }) {
   const { ref, inView } = useInView({
