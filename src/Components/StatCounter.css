@@ -5,7 +5,7 @@
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.stat-card:last-child {
+.stat-counter:last-child {
   border-right: none; /* Remove border for the last item */
 }
 
@@ -44,9 +44,5 @@
   .stat-counter .counter-value
   {
   font-size: 1.7rem;
-  }
-
-  .stat-counter:last-child {
-    border-bottom: none;
   }
 }
