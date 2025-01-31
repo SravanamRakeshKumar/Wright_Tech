@@ -1,4 +1,5 @@
 import React from 'react';
+import director from '../images/director.jpg';
 function About() {
     const teamMembers = [
       {
@@ -6,7 +7,7 @@ function About() {
         name: 'Syed Basha',
         role: 'Director',
         qualification: 'M.B.A., M.Com.',
-        image: '../images/director.jpg'
+        image:director
       },
       {
         id: 2,

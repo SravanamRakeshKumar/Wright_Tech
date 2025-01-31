@@ -5,6 +5,7 @@ import {
   Linkedin, Youtube, MessageSquare, CheckCircle2, Database, Code, Palette,
   BrainCircuit, LineChart, FileSpreadsheet, Menu, X, ChevronUp, Star
 } from 'lucide-react';
+import logo from '../images/logo.png';
 
 function Header()
 {
@@ -36,7 +37,7 @@ function Header()
                     >
 
                       {/* <Trophy className="w-8 h-8 text-yellow-400" /> */}
-                      <img className="absolute w-15 h-17" src="../images/logo.png" alt="logo" />
+                      <img className="absolute w-15 h-17" src={logo} alt="logo" />
                       <div className="absolute ml-[70px] p-0 text-center text-2xl font-bold text-white">Wright Tech <p className="-mt-[13px] text-[15px] text-yellow-400">Software Solutions</p></div>
                     </div>
         

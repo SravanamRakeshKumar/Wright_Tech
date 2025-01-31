@@ -8,6 +8,13 @@ import {
 import StatCounter from '../Components/StatCounter';
 import { motion } from "framer-motion";
 import Confetti from 'react-confetti';
+import microsoft from "../images/microsoft.png";
+import java from "../images/java.png";
+import sap from "../images/sap.png";
+import autocad from "../images/autocad.png";
+import iso from "../images/iso.png";
+import cloud from "../images/cloud.png";
+import director from '../images/director.jpg';
 function Home() {
     
   const [showConfetti, setShowConfetti] = useState(true);
@@ -114,7 +121,7 @@ function Home() {
     const certificates = [
       {
         name:'Microsoft',
-        image:"../images/microsoft.png"
+        image:microsoft
       },
       {
         name:'Python',
@@ -122,19 +129,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"../images/java.png"
+        image:java
       },
       {
         name:'SAP',
-        image:"../images/sap.png"
+        image:sap
       },
       {
         name:'AutoCAD',
-        image:"../images/autocad.png"
+        image:autocad
       },
       {
         name:'Cloud',
-        image:"../images/cloud.png"
+        image:cloud
       },
       {
         name:'ERP',
@@ -146,7 +153,7 @@ function Home() {
       },
       {
         name:'Microsoft',
-        image:"../images/microsoft.png"
+        image:microsoft
       },
       {
         name:'Python',
@@ -154,19 +161,19 @@ function Home() {
       },
       {
         name:'Java',
-        image:"../images/java.png"
+        image:java
       },
       {
         name:'SAP',
-        image:"../images/sap.png"
+        image:sap
       },
       {
         name:'AutoCAD',
-        image:"../images/autocad.png"
+        image:autocad
       },
       {
         name:'Cloud',
-        image:"../images/cloud.png"
+        image:cloud
       },
       {
         name:'ERP',
@@ -187,7 +194,7 @@ function Home() {
       },
       {
         name: 'ISO 9001:2015',
-        image: '../images/iso.png'
+        image:iso
       },
       {
         name: 'APSCHE Approved',
@@ -320,7 +327,7 @@ function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-0 group-hover:opacity-75 transition-opacity duration-300 rounded-xl"></div>
         <img 
-          src="../images/director.jpg" 
+          src={director}
           alt="Professional at work"
           className="w-full h-[350px] mt-[30px] rounded-xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300"
         />
