@@ -11,6 +11,7 @@ function Header()
 {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const basePath = import.meta.env.VITE_APP_BASE_PATH || '';
     
 
     const scrollToTop = () => {
@@ -22,9 +23,9 @@ function Header()
 
       const navLinks = [
         { name: 'Home', href: '/', navigateToSection: true },
-        { name: 'About', href: `${import.meta.env.VITE_APP_API_URL}about`, navigateToSection: false },
-        { name: 'Courses', href: `${import.meta.env.VITE_APP_API_URL}courses`, navigateToSection: false },
-        { name: 'Contact', href: `${import.meta.env.VITE_APP_API_URL}contact`, navigateToSection: false }
+        { name: 'About', href: `${basePath}about`, navigateToSection: false },
+        { name: 'Courses', href: `${basePath}courses`, navigateToSection: false },
+        { name: 'Contact', href: `${basePath}contact`, navigateToSection: false }
       ];
     return(
          <header className="fixed w-full z-50 bg-blue-900/95 backdrop-blur-sm shadow-lg">
