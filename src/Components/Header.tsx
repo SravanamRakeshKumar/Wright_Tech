@@ -63,7 +63,7 @@ function Header()
                       className="md:hidden text-white p-2 hover:bg-blue-800 rounded-lg transition-colors"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                      {isMenuOpen ? <X className="w-10 h-full" /> : <Menu className="w-10 h-full" />}
                     </button>
                   </div>
         
